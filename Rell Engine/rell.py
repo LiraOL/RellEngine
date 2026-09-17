@@ -399,14 +399,9 @@ class RellEngine:
                 type_dir = info.folder / td.type_id
                 if type_dir.exists() and type_dir.is_dir():
                     self._load_type_dir_pools(eid, info.manifest, td.type_id, type_dir)
-                    if self.pool.by_type.get(td.type_id, {}).get("bases"):
-                        self.pool.type_tags.setdefault(td.type_id, set()).update(td.tags)
-                        for tg in td.tags:
-                            self.pool.tag_to_types.setdefault(tg, set()).add(td.type_id)
-                    else:
-                        self.last_errors.append(
-                            f"{safe_rel(type_dir, self.root)}: falta bases.txt o está vacío"
-                        )
+                    self.pool.type_tags.setdefault(td.type_id, set()).update(td.tags)
+                    for tg in td.tags:
+                        self.pool.tag_to_types.setdefault(tg, set()).add(td.type_id)
                 else:
                     self.last_errors.append(f"{safe_rel(type_dir, self.root)}: carpeta de tipo no existe")
 
@@ -435,8 +430,11 @@ class RellEngine:
 
     def _load_common_pools(self) -> None:
         # common/*.txt -> pool name = stem
+        skip_files = {"rareza.txt", "tags.txt", "balance_profiles.txt"}
         for common_dir in self._iter_common_dirs():
             for fp in sorted(common_dir.glob("*.txt")):
+                if fp.name in skip_files:
+                    continue
                 self._load_pool_file("__config__", self.pool.common, fp.stem, fp, allow_format_b=True)
 
         # manifest common=<relpath> -> añadidos a common pool con su stem

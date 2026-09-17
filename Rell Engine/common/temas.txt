@@ -1,0 +1,3 @@
+0|hielo|Escarcha
+0|sagrado|Juramento
+0|sombra|Sombras

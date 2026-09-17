@@ -1,0 +1,6 @@
+0|{names_base} {epiteto}
+0|{sobrenombre}
+0|{names_base} {epiteto}
+0|{names_base} de {tema}
+0|{sobrenombre}
+

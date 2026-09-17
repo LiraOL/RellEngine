@@ -1,0 +1,2 @@
+0|1d4 cortante
+0|1d6 perforante

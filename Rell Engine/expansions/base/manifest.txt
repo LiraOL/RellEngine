@@ -1,0 +1,16 @@
+id=base
+name=Base
+version=1.0.0
+
+# Opcional para actualizacion remota
+update_url=https://github.com/usuario/rell-expansion-base
+
+
+# Tipos con tags
+type=espada|tags=arma,cuerpo_a_cuerpo
+type=peto|tags=armadura
+
+# Nombres únicos (por defecto false)
+name_unique=false
+name_unique_scope=expansion
+name_list=nombres.txt

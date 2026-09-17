@@ -1,0 +1,3 @@
+language=es-ES
+ui_mode=simple
+fallback_when_unique_names_exhausted=true

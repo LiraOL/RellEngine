@@ -1,0 +1,6 @@
+budget_tolerance=1
+max_total_tags=3
+require_theme_match=false
+prefer_matching_tags=true
+forbid_tag_mix=hielo+fuego,sagrado+profano
+max_stat_adjustments=2

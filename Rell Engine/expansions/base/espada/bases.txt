@@ -1,0 +1,3 @@
+0|Una vez al día, {cosas_buenas}. Pero {cosas_malas}.
+0|Mientras empuñas esta espada, {cosas_buenas}.
+0|Al impactar, {cosas_buenas}; a cambio, {cosas_malas}.

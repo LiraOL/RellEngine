@@ -1,0 +1,3 @@
++2|daño|infliges +1d4 de daño adicional
++3|defensa|ganas +1 a la CA hasta el inicio de tu siguiente turno
++4|control|el objetivo debe superar una salvación o queda ralentizado 1 turno

@@ -1,0 +1,4 @@
+0|Espada
+0|Hoja
+0|Martillo
+0|Báculo

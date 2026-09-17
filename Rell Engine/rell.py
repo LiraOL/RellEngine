@@ -47,6 +47,8 @@ PLACEHOLDER_ALIASES: Dict[str, List[str]] = {
     "epitetos": ["epitetos", "epiteto"],
     "sobrenombre": ["sobrenombre", "sobrenombres"],
     "sobrenombres": ["sobrenombres", "sobrenombre"],
+    "tema": ["tema", "temas"],
+    "temas": ["temas", "tema"],
     "names_base": ["names_base"],
     # puedes añadir más alias aquí si lo necesitas
 }
@@ -250,7 +252,8 @@ class RellEngine:
         self.config_dir = root / "config"
         self.exp_dir = root / "expansions"
         self.state_dir = self.config_dir / "state"
-        self.common_dir = self.config_dir / "common"
+        self.common_dir = root / "common"
+        self.legacy_common_dir = self.config_dir / "common"
 
         self.engine_config = EngineConfig()
         self.rules = RulesConfig()
@@ -331,6 +334,13 @@ class RellEngine:
         lines = [eid for eid, e in self.expansions.items() if e.enabled and e.load_error is None]
         write_text(p, "\n".join(lines) + ("\n" if lines else ""))
 
+    def _iter_common_dirs(self) -> List[Path]:
+        dirs: List[Path] = []
+        for d in (self.common_dir, self.legacy_common_dir):
+            if d.exists() and d.is_dir() and d not in dirs:
+                dirs.append(d)
+        return dirs
+
     def load_expansions(self) -> None:
         self.expansions.clear()
         enabled = self._read_enabled_expansions()
@@ -379,15 +389,6 @@ class RellEngine:
     def rebuild_pool_index(self) -> None:
         self.pool = PoolIndex()
 
-        # tags -> types
-        for info in self.expansions.values():
-            if info.load_error or not info.enabled:
-                continue
-            for td in info.manifest.types:
-                self.pool.type_tags.setdefault(td.type_id, set()).update(td.tags)
-                for tg in td.tags:
-                    self.pool.tag_to_types.setdefault(tg, set()).add(td.type_id)
-
         self._load_common_pools()
 
         # type pools
@@ -398,6 +399,16 @@ class RellEngine:
                 type_dir = info.folder / td.type_id
                 if type_dir.exists() and type_dir.is_dir():
                     self._load_type_dir_pools(eid, info.manifest, td.type_id, type_dir)
+                    if self.pool.by_type.get(td.type_id, {}).get("bases"):
+                        self.pool.type_tags.setdefault(td.type_id, set()).update(td.tags)
+                        for tg in td.tags:
+                            self.pool.tag_to_types.setdefault(tg, set()).add(td.type_id)
+                    else:
+                        self.last_errors.append(
+                            f"{safe_rel(type_dir, self.root)}: falta bases.txt o está vacío"
+                        )
+                else:
+                    self.last_errors.append(f"{safe_rel(type_dir, self.root)}: carpeta de tipo no existe")
 
     def _load_pool_file(
         self,
@@ -423,9 +434,9 @@ class RellEngine:
                 self.last_errors.append(f"{safe_rel(file_path, self.root)} línea {i}: {e}")
 
     def _load_common_pools(self) -> None:
-        # config/common/*.txt -> pool name = stem
-        if self.common_dir.exists():
-            for fp in sorted(self.common_dir.glob("*.txt")):
+        # common/*.txt -> pool name = stem
+        for common_dir in self._iter_common_dirs():
+            for fp in sorted(common_dir.glob("*.txt")):
                 self._load_pool_file("__config__", self.pool.common, fp.stem, fp, allow_format_b=True)
 
         # manifest common=<relpath> -> añadidos a common pool con su stem
@@ -489,9 +500,10 @@ class RellEngine:
         rar: List[Rarity] = []
         sources: List[Path] = []
 
-        base = self.common_dir / "rareza.txt"
-        if base.exists():
-            sources.append(base)
+        for common_dir in self._iter_common_dirs():
+            base = common_dir / "rareza.txt"
+            if base.exists() and base not in sources:
+                sources.append(base)
 
         # allow expansions to contribute rareza via common_files
         for info in self.expansions.values():
@@ -871,6 +883,10 @@ class RellEngine:
             templates += tpool["plantillas_nombres"]
         if tpool.get("plantillas_nombre"):
             templates += tpool["plantillas_nombre"]
+        if self.pool.common.get("plantillas_nombres"):
+            templates += self.pool.common["plantillas_nombres"]
+        if self.pool.common.get("plantillas_nombre"):
+            templates += self.pool.common["plantillas_nombre"]
 
         if templates:
             tpl = random.choice(templates)

@@ -1,0 +1,2 @@
+# id|Nombre|clave=valor;...   (foundry = id del objeto base en el sistema dnd5e)
+latigo|Látigo|foundry=whip;categoria=marcial;daño=1d4 cortante;propiedades=sutil,alcance;peso=3;precio=2

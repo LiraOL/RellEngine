@@ -1,0 +1,16 @@
+# Efectos para anillos y amuletos (carpeta compartida por el tag "joya").
+1|-|Mientras llevas este objeto, sabes siempre cuánto falta para el próximo amanecer.
+1|-|Este objeto se ajusta por sí solo a quien lo lleva y nunca se cae ni se pierde por accidente.
+2|-|Mientras llevas este objeto, puedes entender una lengua que elijas al sintonizarte con él, aunque no hablarla.|sintonizacion=si
+2|-|Mientras llevas este objeto, no necesitas comer ni beber.|sintonizacion=si
+4|-|Mientras llevas este objeto, tienes un bonificador +1 a la CA.|ca=1;sintonizacion=si
+4|-|Mientras llevas este objeto, tienes un bonificador +1 a todas las tiradas de salvación.|salvaciones=1;sintonizacion=si
+5|-|Mientras llevas este objeto, tu velocidad caminando aumenta en 10 pies.|velocidad=10;sintonizacion=si
+6|-|Mientras llevas este objeto, tienes resistencia al daño {elemento}.|resistencia={elemento};sintonizacion=si
+3|-|Una vez por amanecer, puedes usar una acción para lanzar Detectar magia sin gastar un espacio de conjuro.|usos=1/amanecer;poder=Detectar magia
+4|-|Una vez por amanecer, cuando fallas una tirada de salvación puedes repetirla. Debes usar el nuevo resultado.|usos=1/amanecer;activacion=especial;poder=Buena estrella;sintonizacion=si
+5|-|Una vez por amanecer, puedes usar una acción para volverte invisible hasta el final de tu siguiente turno o hasta que ataques o lances un conjuro.|usos=1/amanecer;poder=Desvanecerse;sintonizacion=si
+-1|-|Este objeto está siempre helado al tacto y resulta molesto de llevar.
+-2|-|Mientras llevas este objeto, tienes desventaja en las pruebas de Carisma (Persuasión): tu voz suena hueca.
+-3|maldicion|Maldición. Una vez sintonizado, no puedes quitarte este objeto voluntariamente.|sintonizacion=si
+-4|maldicion|Maldición. Mientras estés sintonizado con este objeto, tienes vulnerabilidad al daño {elemento}.|vulnerabilidad={elemento};sintonizacion=si

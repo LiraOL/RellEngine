@@ -1,0 +1,5 @@
+# id|Nombre|clave=valor;...   des = máximo de mod. de Destreza a la CA (sin poner = sin límite, 0 = no suma)
+cota_de_anillas|Cota de anillas|foundry=ringmail;clase=pesada;ca=14;des=0;sigilo=desventaja;peso=40;precio=30
+cota_de_mallas|Cota de mallas|foundry=chainmail;clase=pesada;ca=16;des=0;fuerza=13;sigilo=desventaja;peso=55;precio=75
+armadura_de_bandas|Armadura de bandas|foundry=splint;clase=pesada;ca=17;des=0;fuerza=15;sigilo=desventaja;peso=60;precio=200
+armadura_de_placas|Armadura de placas|foundry=plate;clase=pesada;ca=18;des=0;fuerza=15;sigilo=desventaja;peso=65;precio=1500

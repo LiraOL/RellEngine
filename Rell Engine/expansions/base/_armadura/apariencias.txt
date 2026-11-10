@@ -1,0 +1,10 @@
+0|-|Está decorado con un emblema que ya no pertenece a ninguna casa viva.
+0|-|Los remaches son de {metal} y forman un dibujo de espirales.
+0|-|El forro interior es de tela de color {color}.
+0|-|Muestra las marcas de muchas batallas, reparadas con mimo.
+0|-|Tiene grabada una oración breve en el borde.
+0|fuego|El metal conserva un tono rojizo, como brasa a punto de apagarse.
+0|hielo|Está frío al tacto incluso junto al fuego.
+0|sagrado|Lleva repujado un sol naciente.
+0|profano|Un rostro cadavérico asoma entre los adornos según la luz.
+0|maldicion|Los adornos parecen cambiar ligeramente cuando no se los mira.

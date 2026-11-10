@@ -1,5 +1,0 @@
-arma
-armadura
-joya
-consumible
-herramienta

@@ -1,0 +1,3 @@
+# id|Nombre|clave=valor;...   (foundry = id del objeto base en el sistema dnd5e)
+daga|Daga|foundry=dagger;categoria=simple;daño=1d4 perforante;propiedades=sutil,ligera,arrojadiza;alcance=20/60;peso=1;precio=2
+hoz|Hoz|foundry=sickle;categoria=simple;daño=1d4 cortante;propiedades=ligera;peso=2;precio=1

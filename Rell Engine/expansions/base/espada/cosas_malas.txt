@@ -1,3 +1,0 @@
--1|ruido|la hoja emite un zumbido audible a 6 m
--3|agotamiento|tras el combate, 1–2 en d20: ganas 1 nivel de agotamiento
--4|maldicion|si huyes, sufres -1 a Carisma hasta el amanecer

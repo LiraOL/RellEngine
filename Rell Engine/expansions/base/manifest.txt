@@ -1,16 +1,25 @@
+# Expansión base de Rell Engine: armas, armaduras y joyas de D&D 5e.
 id=base
 name=Base
-version=1.0.0
+version=2.0.0
 
-# Opcional para actualizacion remota
-update_url=https://github.com/usuario/rell-expansion-base
-
-
-# Tipos con tags
-type=espada|tags=arma,cuerpo_a_cuerpo
-type=peto|tags=armadura
-
-# Nombres únicos (por defecto false)
-name_unique=false
-name_unique_scope=expansion
-name_list=nombres.txt
+# type=<carpeta>|tags=<categorías>|nombre=<nombre visible>
+# Tags con significado para el motor:
+#   arma, armadura, escudo  -> clase de objeto en Foundry
+#   a_distancia             -> el arma es a distancia
+# Además, cada tag carga la carpeta compartida _<tag> (p. ej. _arma).
+type=espada|tags=arma,cuerpo_a_cuerpo|nombre=Espada
+type=daga|tags=arma,cuerpo_a_cuerpo|nombre=Daga u hoz
+type=hacha|tags=arma,cuerpo_a_cuerpo|nombre=Hacha
+type=contundente|tags=arma,cuerpo_a_cuerpo|nombre=Maza o martillo
+type=asta|tags=arma,cuerpo_a_cuerpo|nombre=Arma de asta
+type=latigo|tags=arma,cuerpo_a_cuerpo|nombre=Látigo
+type=arco|tags=arma,a_distancia|nombre=Arco
+type=ballesta|tags=arma,a_distancia|nombre=Ballesta
+type=proyectiles|tags=arma,a_distancia|nombre=Honda, dardo o cerbatana
+type=armadura_ligera|tags=armadura|nombre=Armadura ligera
+type=armadura_media|tags=armadura|nombre=Armadura media
+type=armadura_pesada|tags=armadura|nombre=Armadura pesada
+type=escudo|tags=armadura,escudo|nombre=Escudo
+type=anillo|tags=joya|nombre=Anillo
+type=amuleto|tags=joya|nombre=Amuleto

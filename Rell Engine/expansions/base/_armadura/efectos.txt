@@ -1,0 +1,29 @@
+# Efectos para armaduras y escudos (carpeta compartida por el tag "armadura").
+# coste|tags|texto|mecánicas
+
+# --- Automáticos en Foundry ---
+0|-|Tienes un bonificador {bono_armadura} a la CA mientras llevas este objeto.
+6|-|Mientras llevas este objeto, tienes resistencia al daño {elemento}.|resistencia={elemento};sintonizacion=si
+5|-|Mientras llevas este objeto, tienes un bonificador +1 a todas las tiradas de salvación.|salvaciones=1;sintonizacion=si
+5|-|Mientras llevas este objeto, tu velocidad caminando aumenta en 10 pies.|velocidad=10;sintonizacion=si
+
+# --- Propiedades menores ---
+1|-|Puedes ponerte o quitarte este objeto usando una sola acción.
+1|-|Este objeto está siempre limpio y nunca huele mal, por mucho que se use.
+1|-|Mientras llevas este objeto, no te afectan el frío ni el calor extremos de origen natural.
+2|-|Mientras llevas este objeto, puedes descansar con él puesto sin sufrir ninguna penalización.
+3|-|Mientras llevas este objeto, tienes ventaja en las tiradas de salvación para evitar o terminar el estado de asustado.
+3|-|Mientras llevas este objeto, los golpes críticos contra ti dejan de serlo si superas una tirada de salvación de Constitución CD 12.
+
+# --- Poderes con usos limitados ---
+3|-|Una vez por amanecer, puedes usar una acción adicional para ganar 2d6 + 2 puntos de golpe temporales.|usos=1/amanecer;activacion=adicional;poder=Vigor
+4|-|Una vez por amanecer, cuando recibes un golpe crítico puedes usar tu reacción para convertirlo en un impacto normal.|usos=1/amanecer;activacion=reaccion;poder=Negar crítico
+4|-|Una vez por amanecer, puedes usar una acción adicional para teletransportarte hasta 30 pies a un espacio desocupado que puedas ver.|usos=1/amanecer;activacion=adicional;poder=Paso brumoso;sintonizacion=si
+5|-|Una vez por amanecer, cuando recibes daño {elemento} puedes usar tu reacción para ganar inmunidad a ese tipo de daño hasta el comienzo de tu siguiente turno.|usos=1/amanecer;activacion=reaccion;poder=Absorber;sintonizacion=si
+
+# --- Inconvenientes ---
+-1|-|Este objeto pesa el doble de lo normal.
+-2|-|Este objeto cruje y tintinea: tienes desventaja en las pruebas de Destreza (Sigilo) mientras lo llevas.
+-2|-|Mientras llevas este objeto, tu velocidad caminando se reduce en 5 pies.|velocidad=-5
+-3|maldicion|Maldición. Una vez sintonizado, no puedes quitarte este objeto voluntariamente.|sintonizacion=si
+-4|maldicion|Maldición. Mientras estés sintonizado con este objeto, tienes vulnerabilidad al daño {elemento}.|vulnerabilidad={elemento};sintonizacion=si

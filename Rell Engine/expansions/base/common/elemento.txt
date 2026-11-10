@@ -1,0 +1,13 @@
+# Tipos de daño "elementales", escritos para encajar tras la palabra "daño":
+#   "...1d4 de daño {elemento}"  ->  "...1d4 de daño de fuego" / "...1d4 de daño psíquico"
+# El tag hace que el nombre y el resto de efectos del objeto sigan el mismo tema.
+0|fuego|de fuego
+0|hielo|de frío
+0|rayo|de relámpago
+0|acido|de ácido
+0|veneno|de veneno
+0|trueno|de trueno
+0|sagrado|radiante
+0|profano|necrótico
+0|mente|psíquico
+0|arcano|de fuerza

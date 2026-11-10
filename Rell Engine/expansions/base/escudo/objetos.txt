@@ -1,0 +1,4 @@
+# id|Nombre|clave=valor;...   (varios nombres pueden usar el mismo objeto base de Foundry)
+escudo|Escudo|foundry=shield;clase=escudo;ca=2;peso=6;precio=10
+rodela|Rodela|foundry=shield;clase=escudo;ca=2;peso=6;precio=10
+escudo_de_cometa|Escudo de cometa|foundry=shield;clase=escudo;ca=2;peso=6;precio=10

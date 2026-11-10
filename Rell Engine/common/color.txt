@@ -1,0 +1,8 @@
+0|rojo oscuro
+0|negro
+0|azul marino
+0|verde musgo
+0|blanco hueso
+0|pardo
+0|gris ceniza
+0|granate

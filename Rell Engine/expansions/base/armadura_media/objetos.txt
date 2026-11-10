@@ -1,0 +1,6 @@
+# id|Nombre|clave=valor;...   des = máximo de mod. de Destreza a la CA (sin poner = sin límite, 0 = no suma)
+pieles|Armadura de pieles|foundry=hide;clase=media;ca=12;des=2;peso=12;precio=10
+camisote_de_mallas|Camisote de mallas|foundry=chainshirt;clase=media;ca=13;des=2;peso=20;precio=50
+cota_de_escamas|Cota de escamas|foundry=scalemail;clase=media;ca=14;des=2;sigilo=desventaja;peso=45;precio=50
+coraza|Coraza|foundry=breastplate;clase=media;ca=14;des=2;peso=20;precio=400
+media_armadura|Media armadura|foundry=halfplate;clase=media;ca=15;des=2;sigilo=desventaja;peso=40;precio=750

@@ -1,0 +1,4 @@
+# Efectos solo para escudos.
+3|-|Mientras embrazas este escudo, tienes ventaja en las pruebas de Sabiduría (Percepción).
+4|-|Mientras embrazas este escudo, tienes un bonificador +2 adicional a la CA contra ataques a distancia.|sintonizacion=si
+3|-|Una vez por amanecer, cuando una criatura a 5 pies de ti es objetivo de un ataque, puedes usar tu reacción para imponer desventaja a esa tirada.|usos=1/amanecer;activacion=reaccion;poder=Interponerse

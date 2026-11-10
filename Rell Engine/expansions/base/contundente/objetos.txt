@@ -1,0 +1,10 @@
+# id|Nombre|clave=valor;...   (foundry = id del objeto base en el sistema dnd5e)
+garrote|Garrote|foundry=club;categoria=simple;daño=1d4 contundente;propiedades=ligera;peso=2;precio=0.1
+garrote_grande|Garrote grande|foundry=greatclub;categoria=simple;daño=1d8 contundente;propiedades=a_dos_manos;peso=10;precio=0.2
+maza|Maza|foundry=mace;categoria=simple;daño=1d6 contundente;peso=4;precio=5
+martillo_ligero|Martillo ligero|foundry=lighthammer;categoria=simple;daño=1d4 contundente;propiedades=ligera,arrojadiza;alcance=20/60;peso=2;precio=2
+martillo_de_guerra|Martillo de guerra|foundry=warhammer;categoria=marcial;daño=1d8 contundente;versatil=1d10;propiedades=versatil;peso=5;precio=15
+mazo|Mazo|foundry=maul;categoria=marcial;daño=2d6 contundente;propiedades=pesada,a_dos_manos;peso=10;precio=10
+lucero_del_alba|Lucero del alba|foundry=morningstar;categoria=marcial;daño=1d8 perforante;peso=4;precio=15
+mangual|Mangual|foundry=flail;categoria=marcial;daño=1d8 contundente;peso=2;precio=10
+pico_de_guerra|Pico de guerra|foundry=warpick;categoria=marcial;daño=1d8 perforante;versatil=1d10;propiedades=versatil;peso=2;precio=5

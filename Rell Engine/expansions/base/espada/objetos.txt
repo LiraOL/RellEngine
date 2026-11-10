@@ -1,0 +1,6 @@
+# id|Nombre|clave=valor;...   (foundry = id del objeto base en el sistema dnd5e)
+espada_corta|Espada corta|foundry=shortsword;categoria=marcial;daño=1d6 perforante;propiedades=sutil,ligera;peso=2;precio=10
+espada_larga|Espada larga|foundry=longsword;categoria=marcial;daño=1d8 cortante;versatil=1d10;propiedades=versatil;peso=3;precio=15
+espadon|Espadón|foundry=greatsword;categoria=marcial;daño=2d6 cortante;propiedades=pesada,a_dos_manos;peso=6;precio=50
+estoque|Estoque|foundry=rapier;categoria=marcial;daño=1d8 perforante;propiedades=sutil;peso=2;precio=25
+cimitarra|Cimitarra|foundry=scimitar;categoria=marcial;daño=1d6 cortante;propiedades=sutil,ligera;peso=3;precio=25

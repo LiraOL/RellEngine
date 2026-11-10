@@ -1,0 +1,13 @@
+# Frases de apariencia (no afectan al balance).
+0|-|La empuñadura está envuelta en cuero {color}, gastado por el uso.
+0|-|Tiene grabado un nombre casi borrado en una lengua antigua.
+0|-|El pomo está rematado con una pieza de {metal} en forma de cabeza de animal.
+0|-|Unas runas diminutas recorren el arma de un extremo a otro.
+0|-|Lleva la marca de un herrero que nadie reconoce.
+0|-|Una cinta de tela de color {color} cuelga atada cerca de la empuñadura.
+0|fuego|Al tacto está siempre tibia, como si acabara de salir de la fragua.
+0|hielo|Se cubre de una fina capa de escarcha cuando nadie la toca.
+0|rayo|Al moverla deprisa deja en el aire un leve olor a tormenta.
+0|sagrado|A la luz del alba parece brillar un poco más de lo que debería.
+0|profano|Las sombras parecen alargarse cerca de ella.
+0|maldicion|Quien la mira demasiado tiempo siente un leve desasosiego.

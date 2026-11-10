@@ -1,0 +1,3 @@
+# id|Nombre|clave=valor;...   (foundry = id del objeto base en el sistema dnd5e)
+arco_corto|Arco corto|foundry=shortbow;categoria=simple;daño=1d6 perforante;propiedades=municion,a_dos_manos;alcance=80/320;peso=2;precio=25
+arco_largo|Arco largo|foundry=longbow;categoria=marcial;daño=1d8 perforante;propiedades=municion,pesada,a_dos_manos;alcance=150/600;peso=2;precio=50

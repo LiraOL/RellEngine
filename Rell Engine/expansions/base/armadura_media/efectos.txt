@@ -1,0 +1,2 @@
+# Efectos solo para armaduras medias.
+3|-|Esta armadura es extraordinariamente ligera: no impone desventaja en las pruebas de Destreza (Sigilo).

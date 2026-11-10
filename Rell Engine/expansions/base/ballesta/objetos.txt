@@ -1,0 +1,4 @@
+# id|Nombre|clave=valor;...   (foundry = id del objeto base en el sistema dnd5e)
+ballesta_ligera|Ballesta ligera|foundry=lightcrossbow;categoria=simple;daño=1d8 perforante;propiedades=municion,recarga,a_dos_manos;alcance=80/320;peso=5;precio=25
+ballesta_de_mano|Ballesta de mano|foundry=handcrossbow;categoria=marcial;daño=1d6 perforante;propiedades=municion,ligera,recarga;alcance=30/120;peso=3;precio=75
+ballesta_pesada|Ballesta pesada|foundry=heavycrossbow;categoria=marcial;daño=1d10 perforante;propiedades=municion,pesada,recarga,a_dos_manos;alcance=100/400;peso=18;precio=50

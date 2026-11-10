@@ -1,0 +1,9 @@
+# id|Nombre|clave=valor;...   (foundry = id del objeto base en el sistema dnd5e)
+lanza|Lanza|foundry=spear;categoria=simple;daño=1d6 perforante;versatil=1d8;propiedades=arrojadiza,versatil;alcance=20/60;peso=3;precio=1
+jabalina|Jabalina|foundry=javelin;categoria=simple;daño=1d6 perforante;propiedades=arrojadiza;alcance=30/120;peso=2;precio=0.5
+baston|Bastón|foundry=quarterstaff;categoria=simple;daño=1d6 contundente;versatil=1d8;propiedades=versatil;peso=4;precio=0.2
+guja|Guja|foundry=glaive;categoria=marcial;daño=1d10 cortante;propiedades=pesada,alcance,a_dos_manos;peso=6;precio=20
+alabarda|Alabarda|foundry=halberd;categoria=marcial;daño=1d10 cortante;propiedades=pesada,alcance,a_dos_manos;peso=6;precio=20
+pica|Pica|foundry=pike;categoria=marcial;daño=1d10 perforante;propiedades=pesada,alcance,a_dos_manos;peso=18;precio=5
+lanza_de_caballeria|Lanza de caballería|foundry=lance;categoria=marcial;daño=1d10 perforante;propiedades=pesada,alcance,a_dos_manos;peso=6;precio=10
+tridente|Tridente|foundry=trident;categoria=marcial;daño=1d8 perforante;versatil=1d10;propiedades=arrojadiza,versatil;alcance=20/60;peso=4;precio=5

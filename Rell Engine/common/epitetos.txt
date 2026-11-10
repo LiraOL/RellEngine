@@ -1,0 +1,37 @@
+# coste|tags|texto   (las líneas con tags solo salen si el objeto comparte alguno)
+0|-|del Ocaso
+0|-|del Vigía
+0|-|de la Última Guardia
+0|-|del Juramento
+0|-|del Errante
+0|-|de los Reyes Olvidados
+0|-|del Lobo Gris
+0|-|de Hierro Viejo
+0|-|del Paso del Norte
+0|-|de la Casa Caída
+0|-|del Heraldo
+0|-|de las Mil Leguas
+0|fuego|de las Brasas
+0|fuego|del Dragón Rojo
+0|fuego|de la Fragua Eterna
+0|hielo|de la Escarcha
+0|hielo|del Invierno Largo
+0|rayo|de la Tormenta
+0|rayo|del Cielo Roto
+0|acido|del Pantano
+0|acido|de la Herrumbre
+0|veneno|de la Víbora
+0|veneno|del Escorpión
+0|trueno|del Trueno
+0|trueno|del Eco Profundo
+0|sagrado|del Amanecer
+0|sagrado|de la Luz Jurada
+0|profano|de la Tumba
+0|profano|del Último Aliento
+0|mente|de los Susurros
+0|mente|del Sueño Inquieto
+0|arcano|del Velo
+0|arcano|de las Estrellas Fijas
+0|maldicion|del Traidor
+0|maldicion|de la Deuda Impaga
+0|maldicion|del Rey Perjuro

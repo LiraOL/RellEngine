@@ -1,3 +1,24 @@
-0|La Última Vigilia
-0|Juramento Roto
-0|Silencio de Hierro
+0|-|La Última Vigilia
+0|-|Silencio de Hierro
+0|-|Promesa
+0|-|Centinela
+0|-|Fiel Compañera
+0|-|Guardacaminos
+0|-|Herencia
+0|-|Buena Fortuna
+0|fuego|Lengua de Ascuas
+0|fuego|Alba Roja
+0|hielo|Mordisco de Invierno
+0|hielo|Lágrima Helada
+0|rayo|Hija de la Tormenta
+0|acido|Herrumbre
+0|veneno|Beso de Víbora
+0|trueno|Voz del Monte
+0|sagrado|Tejealbas
+0|sagrado|Misericordia
+0|profano|Duelo
+0|profano|Hambre Callada
+0|mente|Susurro
+0|arcano|Llave del Velo
+0|maldicion|Juramento Roto
+0|maldicion|Mala Estrella

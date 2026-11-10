@@ -1,0 +1,5 @@
+0|-|Está hecho de {metal} y tiene engastada una piedra de color {color}.
+0|-|Lleva una inscripción diminuta en su cara interior.
+0|-|Es sencillo y sin adornos, pero nunca pierde el brillo.
+0|-|Tiene la forma de una serpiente que se muerde la cola.
+0|maldicion|La piedra engastada parece un ojo que sigue a quien la mira.

@@ -1,0 +1,38 @@
+# Efectos para TODAS las armas (carpeta compartida por el tag "arma").
+# coste|tags|texto|mecánicas
+#   coste positivo = ventaja, negativo = inconveniente; la suma debe cuadrar con la rareza.
+#   tags: "-" si no tiene. "solo:x" = solo para objetos con ese tag o propiedad.
+#   mecánicas (opcional): lo que Foundry aplicará automáticamente. Ver GUIA_EXPANSIONES.md
+
+# --- Bonificadores y daño (automáticos en Foundry) ---
+0|-|Tienes un bonificador {bono_arma} a las tiradas de ataque y de daño realizadas con esta arma mágica.
+0|-|Los ataques con esta arma infligen {dano_extra} adicional.
+
+# --- Propiedades menores ---
+1|-|Esta arma nunca se oxida ni se mella, y la sangre y la suciedad resbalan de ella sin dejar rastro.
+1|-|Mientras empuñas esta arma, sabes siempre en qué dirección está el norte.
+1|-|Puedes usar una acción adicional para que el arma emita luz brillante en un radio de 20 pies y luz tenue 20 pies más, o para apagarla.
+2|-|Esta arma no puede ser arrebatada de tu mano contra tu voluntad mientras estés consciente.
+2|-|Esta arma cuenta como plateada a efectos de superar resistencias e inmunidades.|propiedad=plateada
+2|-|Mientras llevas esta arma encima, no puedes ser sorprendido salvo que estés incapacitado.
+3|solo:arrojadiza|Inmediatamente después de hacer un ataque a distancia lanzando esta arma, vuelve volando a tu mano.|propiedad=retorno
+3|-|Cuando sacas un 20 en la tirada de ataque con esta arma, el objetivo recibe 2d6 de daño {elemento} adicional.
+4|-|Mientras empuñas esta arma, tienes ventaja en las tiradas de iniciativa.|sintonizacion=si
+5|-|Tus ataques con esta arma obtienen un golpe crítico con un resultado de 19 o 20 en el dado.|sintonizacion=si
+6|-|Mientras empuñas esta arma, tienes resistencia al daño {elemento}.|resistencia={elemento};sintonizacion=si
+
+# --- Poderes con usos limitados ---
+3|-|Una vez por amanecer, cuando impactas con esta arma puedes hacer que el objetivo reciba 2d6 de daño {elemento} adicional.|usos=1/amanecer;activacion=especial;poder=Descarga
+3|-|Una vez por amanecer, puedes usar una acción adicional para moverte hasta 30 pies sin provocar ataques de oportunidad.|usos=1/amanecer;activacion=adicional;poder=Paso veloz
+4|-|Una vez por amanecer, cuando una criatura que puedas ver te impacta con un ataque, puedes usar tu reacción para sumar +4 a tu CA contra ese ataque, lo que puede hacer que falle.|usos=1/amanecer;activacion=reaccion;poder=Parada
+4|-|Tres veces por amanecer, cuando fallas un ataque con esta arma puedes repetir la tirada. Debes usar el nuevo resultado.|usos=3/amanecer;activacion=especial;poder=Segunda oportunidad;sintonizacion=si
+5|-|Una vez por amanecer, puedes usar una acción para clavar el arma en el suelo: cada criatura que elijas en un radio de 15 pies debe superar una tirada de salvación de Destreza CD 15 o recibir 4d6 de daño {elemento}, o la mitad si la supera.|usos=1/amanecer;poder=Estallido;sintonizacion=si
+
+# --- Inconvenientes ---
+-1|-|El arma emite un zumbido grave, audible a 30 pies, siempre que está desenvainada.
+-1|-|El arma pesa el doble de lo normal y resulta incómoda de transportar.
+-2|-|Cuando sacas un 1 en una tirada de ataque con esta arma, recibes 1d6 de daño psíquico.
+-2|maldicion|Maldición. Mientras estés sintonizado con esta arma, tienes desventaja en las tiradas de ataque realizadas con cualquier otra arma.|sintonizacion=si
+-3|maldicion|Maldición. No estás dispuesto a separarte de esta arma y tienes desventaja en las tiradas de salvación de Sabiduría mientras estés sintonizado con ella.|sintonizacion=si
+-3|maldicion|Maldición. Al comienzo de cada combate debes superar una tirada de salvación de Sabiduría CD 13 o atacar durante tu primer turno a la criatura más cercana, sea amiga o enemiga.|sintonizacion=si
+-4|maldicion|Maldición. Mientras estés sintonizado con esta arma, tienes vulnerabilidad al daño {elemento}.|vulnerabilidad={elemento};sintonizacion=si

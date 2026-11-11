@@ -1,0 +1,18 @@
+{
+  "RELL.Button": "Import from Rell Engine",
+  "RELL.Title": "Import Rell Engine items",
+  "RELL.Files": "Exported files (.json)",
+  "RELL.Paste": "…or paste here what you copied with “Copiar para Foundry”",
+  "RELL.Folder": "Save into the “Rell Engine” folder",
+  "RELL.Import": "Import",
+  "RELL.Cancel": "Cancel",
+  "RELL.Nothing": "Choose a file or paste the items copied from Rell Engine.",
+  "RELL.BadJson": "“{source}” is not valid JSON: {error}",
+  "RELL.BadFormat": "“{source}” is not a Rell Engine export.",
+  "RELL.NewerFormat": "“{source}” was created by a newer Rell Engine. Please update this module.",
+  "RELL.ItemError": "Could not import “{name}”: {error}",
+  "RELL.NoBase": "“{name}”: base item “{base}” was not found in dnd5e; the table statistics were used instead.",
+  "RELL.Done": "Rell Engine: {count} item(s) imported.",
+  "RELL.NoneImported": "Rell Engine: no items were imported.",
+  "RELL.WrongSystem": "Rell Engine Importer only works with the dnd5e system."
+}

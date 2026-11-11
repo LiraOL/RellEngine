@@ -1,0 +1,18 @@
+{
+  "RELL.Button": "Importar de Rell Engine",
+  "RELL.Title": "Importar objetos de Rell Engine",
+  "RELL.Files": "Archivos exportados (.json)",
+  "RELL.Paste": "…o pega aquí lo copiado con «Copiar para Foundry»",
+  "RELL.Folder": "Guardar en la carpeta «Rell Engine»",
+  "RELL.Import": "Importar",
+  "RELL.Cancel": "Cancelar",
+  "RELL.Nothing": "Elige un archivo o pega los objetos copiados desde Rell Engine.",
+  "RELL.BadJson": "«{source}» no es un JSON válido: {error}",
+  "RELL.BadFormat": "«{source}» no es una exportación de Rell Engine.",
+  "RELL.NewerFormat": "«{source}» se creó con una versión más nueva de Rell Engine. Actualiza este módulo.",
+  "RELL.ItemError": "No se pudo importar «{name}»: {error}",
+  "RELL.NoBase": "«{name}»: no se encontró el objeto base «{base}» en dnd5e; se han usado las estadísticas de la tabla.",
+  "RELL.Done": "Rell Engine: {count} objeto(s) importados.",
+  "RELL.NoneImported": "Rell Engine: no se importó ningún objeto.",
+  "RELL.WrongSystem": "Rell Engine Importer solo funciona con el sistema dnd5e."
+}

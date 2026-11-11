@@ -1,0 +1,17 @@
+{
+  "id": "rell-engine-importer",
+  "title": "Rell Engine Importer",
+  "description": "Importa con un botón los objetos generados por Rell Engine (armas, armaduras y joyas para D&D 5e).",
+  "version": "1.0.0",
+  "authors": [{ "name": "LiraOL" }],
+  "url": "https://github.com/LiraOL/RellEngine",
+  "compatibility": { "minimum": "13", "verified": "14" },
+  "relationships": {
+    "systems": [{ "id": "dnd5e", "type": "system", "compatibility": { "minimum": "5.0.0" } }]
+  },
+  "esmodules": ["scripts/main.mjs"],
+  "languages": [
+    { "lang": "es", "name": "Español", "path": "lang/es.json" },
+    { "lang": "en", "name": "English", "path": "lang/en.json" }
+  ]
+}

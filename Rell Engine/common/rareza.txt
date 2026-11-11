@@ -1,4 +1,14 @@
-comun|Común|0|1|1|1
-raro|Raro|4|1|2|2
-legendario|Legendario|8|2|3|3
-maldito|Maldito|-4|1|1|3
+# id|Nombre|presupuesto|tolerancia|efectos|max_malos|foundry|precio
+#
+# presupuesto : suma de costes que deben alcanzar los efectos del objeto
+# tolerancia  : margen admitido por encima o por debajo del presupuesto
+# efectos     : nº de efectos (un número o un rango "1-3"; 0 = objeto no mágico)
+# max_malos   : máximo de efectos negativos permitidos
+# foundry     : rareza en Foundry (common, uncommon, rare, veryRare, legendary, artifact)
+# precio      : precio en po que se suma al del objeto base
+mundano|Mundano|0|0|0|0||0
+comun|Común|2|1|1|0|common|100
+poco_comun|Poco común|4|1|1-2|1|uncommon|400
+raro|Raro|8|1|1-3|1|rare|4000
+muy_raro|Muy raro|12|1|2-3|1|veryRare|40000
+legendario|Legendario|16|2|2-4|1|legendary|200000

@@ -1,0 +1,4 @@
+# id|Nombre|clave=valor;...   (foundry = id del objeto base en el sistema dnd5e)
+hacha_de_mano|Hacha de mano|foundry=handaxe;categoria=simple;daño=1d6 cortante;propiedades=ligera,arrojadiza;alcance=20/60;peso=2;precio=5
+hacha_de_batalla|Hacha de batalla|foundry=battleaxe;categoria=marcial;daño=1d8 cortante;versatil=1d10;propiedades=versatil;peso=4;precio=10
+gran_hacha|Gran hacha|foundry=greataxe;categoria=marcial;daño=1d12 cortante;propiedades=pesada,a_dos_manos;peso=7;precio=30

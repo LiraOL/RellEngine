@@ -1,1 +1,2 @@
+# Expansiones activas, una por línea
 base

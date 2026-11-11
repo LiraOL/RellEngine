@@ -1,0 +1,5 @@
+# id|Nombre|clave=valor;...
+amuleto|Amuleto|foundry_tipo=wondrous;peso=1;precio=5
+colgante|Colgante|foundry_tipo=wondrous;peso=1;precio=5
+medallon|Medallón|foundry_tipo=wondrous;peso=1;precio=5
+broche|Broche|foundry_tipo=wondrous;peso=1;precio=5

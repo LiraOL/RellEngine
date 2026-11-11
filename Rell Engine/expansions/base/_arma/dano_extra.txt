@@ -1,0 +1,5 @@
+# Daño adicional permanente. {elemento} vale lo mismo en el texto y en la mecánica.
+3|-|1d4 de daño {elemento}|daño=1d4 {elemento}
+5|-|1d6 de daño {elemento}|daño=1d6 {elemento}
+7|-|1d8 de daño {elemento}|daño=1d8 {elemento}
+9|-|2d6 de daño {elemento}|daño=2d6 {elemento}

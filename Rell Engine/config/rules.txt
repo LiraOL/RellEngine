@@ -1,6 +1,14 @@
-budget_tolerance=1
-max_total_tags=3
-require_theme_match=false
-prefer_matching_tags=true
-forbid_tag_mix=hielo+fuego,sagrado+profano
-max_stat_adjustments=2
+# Reglas generales del generador (clave=valor)
+
+# Nº de combinaciones que prueba el motor para cuadrar el presupuesto de la rareza.
+intentos=400
+
+# Cuánto más probable es elegir una línea cuyos tags coinciden con los del objeto
+# (1 = sin preferencia). Hace que los objetos salgan "temáticos".
+preferencia_tags=25
+
+# Tags que nunca aparecerán juntos en el mismo objeto.
+mezclas_prohibidas=hielo+fuego,sagrado+profano
+
+# Probabilidad (0-100) de añadir una frase de apariencia.
+probabilidad_apariencia=60

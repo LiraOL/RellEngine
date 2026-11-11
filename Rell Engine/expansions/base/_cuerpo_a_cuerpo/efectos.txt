@@ -1,0 +1,5 @@
+# Efectos solo para armas cuerpo a cuerpo.
+2|-|Cuando impactas a una criatura Grande o más pequeña con esta arma, puedes empujarla 5 pies en línea recta alejándola de ti.
+3|-|Los ataques de oportunidad que realizas con esta arma tienen ventaja.
+4|-|Cuando reduces a una criatura a 0 puntos de golpe con esta arma, ganas 2d6 puntos de golpe temporales.|sintonizacion=si
+-2|-|Mientras empuñas esta arma no puedes realizar ataques de oportunidad.

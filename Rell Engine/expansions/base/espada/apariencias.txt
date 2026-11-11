@@ -1,0 +1,4 @@
+# Apariencias solo para espadas (se suman a las de _arma).
+0|-|La hoja tiene un acanalado central tan pulido que sirve de espejo.
+0|-|La guarda imita dos alas extendidas de {metal}.
+0|-|El filo muestra un damasquinado que recuerda a las olas.

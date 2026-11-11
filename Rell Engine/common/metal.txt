@@ -1,0 +1,6 @@
+0|plata
+0|bronce
+0|oro pálido
+0|cobre
+0|acero azulado
+0|hierro negro

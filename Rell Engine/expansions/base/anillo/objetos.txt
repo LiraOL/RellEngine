@@ -1,0 +1,4 @@
+# id|Nombre|clave=valor;...   foundry_tipo = tipo de equipo en dnd5e (ring, wondrous, trinket...)
+anillo|Anillo|foundry_tipo=ring;precio=5
+sello|Sello|foundry_tipo=ring;precio=5
+alianza|Alianza|foundry_tipo=ring;precio=5

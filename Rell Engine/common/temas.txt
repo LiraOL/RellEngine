@@ -1,3 +1,16 @@
+0|-|Acero Viejo
+0|-|los Caminos
+0|-|la Frontera
+0|-|los Héroes
+0|fuego|Ceniza
+0|fuego|Ascuas
 0|hielo|Escarcha
-0|sagrado|Juramento
-0|sombra|Sombras
+0|rayo|Tormentas
+0|acido|Bilis
+0|veneno|Ponzoña
+0|trueno|Truenos
+0|sagrado|Juramentos
+0|profano|Sombras
+0|mente|Pesadillas
+0|arcano|Estrellas
+0|maldicion|Desdichas

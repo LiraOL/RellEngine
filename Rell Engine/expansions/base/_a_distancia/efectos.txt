@@ -1,0 +1,6 @@
+# Efectos solo para armas a distancia.
+2|-|No sufres desventaja en las tiradas de ataque a largo alcance con esta arma.
+2|solo:municion|Si no tienes munición, esta arma crea un proyectil mágico cada vez que la disparas. El proyectil se desvanece tras el ataque.
+3|-|El alcance normal y el alcance largo de esta arma se duplican.
+5|-|Tus ataques con esta arma ignoran la cobertura media y la cobertura de tres cuartos.|sintonizacion=si
+-2|solo:municion|La munición disparada con esta arma se rompe siempre, impacte o no.

@@ -1,0 +1,4 @@
+# id|Nombre|clave=valor;...   des = máximo de mod. de Destreza a la CA (sin poner = sin límite, 0 = no suma)
+acolchada|Armadura acolchada|foundry=padded;clase=ligera;ca=11;sigilo=desventaja;peso=8;precio=5
+cuero|Armadura de cuero|foundry=leather;clase=ligera;ca=11;peso=10;precio=10
+cuero_tachonado|Armadura de cuero tachonado|foundry=studded;clase=ligera;ca=12;peso=13;precio=45

@@ -1,0 +1,4 @@
+# id|Nombre|clave=valor;...   (foundry = id del objeto base en el sistema dnd5e)
+honda|Honda|foundry=sling;categoria=simple;daño=1d4 contundente;propiedades=municion;alcance=30/120;precio=0.1
+dardo|Dardo|foundry=dart;categoria=simple;daño=1d4 perforante;propiedades=sutil,arrojadiza;alcance=20/60;peso=0.25;precio=0.05
+cerbatana|Cerbatana|foundry=blowgun;categoria=marcial;daño=1 perforante;propiedades=municion,recarga;alcance=25/100;peso=1;precio=10

@@ -1,0 +1,4 @@
+# Bonificador mágico del arma. "bono" se aplica solo en Foundry.
+4|-|+1|bono=1
+8|-|+2|bono=2
+12|-|+3|bono=3

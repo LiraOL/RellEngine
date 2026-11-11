@@ -1,0 +1,3 @@
+# Efectos solo para armaduras pesadas.
+3|-|Esta armadura es extraordinariamente ligera: no impone desventaja en las pruebas de Destreza (Sigilo) ni tiene requisito de Fuerza.
+4|-|Mientras llevas esta armadura, reduces en 3 cualquier daño contundente, cortante o perforante no mágico que recibas.|sintonizacion=si

@@ -1,6 +1,7 @@
-0|{names_base} {epiteto}
-0|{sobrenombre}
-0|{names_base} {epiteto}
-0|{names_base} de {tema}
-0|{sobrenombre}
-
+# Plantillas para el nombre de los objetos mágicos.
+# {objeto} = nombre del objeto base, {objeto_min} = lo mismo en minúscula.
+0|{objeto} {epitetos}
+0|{objeto} {epitetos}
+0|{objeto} de {temas}
+0|{sobrenombres}
+0|{sobrenombres}, {objeto_min} {epitetos}
